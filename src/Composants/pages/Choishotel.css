@@ -1,0 +1,74 @@
+/* la page ou l'on choisi l'un des hotel*/
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Poly&display=swap');
+
+@media only screen and (max-width: 420px) {
+    
+    .image1{
+        background-image: url(./image/image1.png);
+        background-repeat: no repeat;
+        height: 60vw;
+    }
+    .map img{
+        background-image: url(./image/map.png);
+        background-repeat: no-repeat;
+        height: 50vh;
+        width: 100%;
+        margin-top: 5vw;
+        
+    }
+    .reservation{
+        height: 40px;
+        width: 200px;
+        background-color: #19A3FF;
+        border-radius: 20px;
+        color: white;
+        position: absolute;
+        margin-top: 70vw;
+        margin-left: -75vw;  
+        position: fixed;
+        border: #19A3FF; 
+        
+        
+    }
+    .reservation p{
+        font-family: Poly;
+        font-size: 25px;
+        margin-top: -0vw;
+    }
+     h3{
+        margin-top: -45px;
+        margin-left: 40px;
+        width: 214px;
+        font-family:Poly; 
+    }
+    .icons{
+        margin-left: 35px;
+        margin-top: 20px;
+        
+    }
+    .text p{
+        font-family: Poly;
+    }
+    .text{
+        margin-left: 10px;
+        
+    }
+    .image-vector{
+        margin-left: 10px;
+    }
+    .hotel h1{
+        margin-left: 10px;
+        font-family: Akaya Kanadaka;
+    }
+    .menu img{
+        margin-left: 87vw;
+        margin-top: 10vw;
+    
+    }
+    
+  }
+  @media only screen and (max-width: 360px){
+    .icons{
+        margin-left: 15px;
+    }
+  }

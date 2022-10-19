@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Poly&display=swap');
+
+
+@media only screen and (max-width: 600px) {
+    .linear{
+        width: 100%;
+        background: linear-gradient(#00eeff, #19a3ff);
+        height: 200px;
+    }
+
+    h3{
+        color: #ffffff;
+        margin-top: -150px;
+        font-family: 'Akaya Kanadaka';
+        font-size: 40px;
+        margin-left: 95px;
+    }
+    h1{
+        color: black;
+        margin-top: 100px;
+        font-family: 'Akaya Kanadaka';
+        font-size: 30px;
+    }
+    .chambre{
+       margin-left: 25px;
+       margin-top: -55px;
+    }
+
+    .chambre p{
+       font-size: 15px;
+       text-align: justify;
+       padding-right: 15px;
+    }
+
+    .prix{
+       margin-left: 30px;
+    }
+
+    .prix h1{
+        color: black;
+        margin-top: 30px;
+        font-family: 'Akaya Kanadaka';
+        font-size: 30px;
+    }
+
+    .prix p{
+        margin-left: -100px;
+        margin-top: -1px;
+        font-family: 'Akaya Kanadaka';
+        font-size: 20px;
+    }
+
+    .prix .icons{
+        margin-left: -70px;
+        margin-top: -1px;
+        font-family: 'Akaya Kanadaka';
+        font-size: 20px;
+    }
+
+    .icons{
+        display: flex;
+        justify-content: space-around;
+        margin-left: -35px;
+    }
+
+    img{
+        margin-top: 30px;
+        margin-left: 90px;
+        border: #0038FF 5px solid;
+        height: 150px;
+    }
+    
+    .mar3{
+        margin-top: 20vw;
+        margin-left: 25vw;
+        background-color: #19A3FF;
+        height: 13vw;
+        width: 47vw;
+        font-size: 30px;
+        position: fixed;
+        border-radius: 10px;
+        color: white;
+       }
+
+    .image{
+        height: 150px;
+      }
+    
+  }

@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Poly&display=swap');
+
+@media only screen and (max-width: 600px) {
+    .accueil{
+        background-image: url('/src/components/image/home.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 895px;
+    }
+    
+    .h2{
+        color: #0038FF;
+        font-size: 30px;
+        font-family: 'Akaya Kanadaka', cursive;
+        margin-top: -300px;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .h3{
+        color: #000000;
+        font-size: 28px;
+        font-family: 'Poly', serif;
+        margin-top: 35px;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .mar3{
+        margin-top: 7vw;
+        margin-left: 25vw;
+        background-color: #19A3FF;
+        height: 13vw;
+        width: 47vw;
+        font-size: 30px;
+        position: fixed;
+        border-radius: 10px;
+        color: white;
+       }
+  }
+
+
+
